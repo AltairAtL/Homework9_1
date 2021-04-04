@@ -1,0 +1,249 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?1j29rp");
+  src: url("fonts/icomoon.eot?1j29rp#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?1j29rp") format("truetype"),
+    url("fonts/icomoon.woff?1j29rp") format("woff"),
+    url("fonts/icomoon.svg?1j29rp#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-image:before {
+  content: "\e90d";
+}
+.icon-font-size:before {
+  content: "\ea61";
+}
+.icon-bold:before {
+  content: "\ea62";
+}
+.icon-underline:before {
+  content: "\ea63";
+}
+.icon-italic:before {
+  content: "\ea64";
+}
+.icon-text-color:before {
+  content: "\ea6d";
+}
+.icon-paragraph-left:before {
+  content: "\ea77";
+}
+.icon-paragraph-center:before {
+  content: "\ea78";
+}
+.icon-paragraph-right:before {
+  content: "\ea79";
+}
+.icon-paragraph-justify:before {
+  content: "\ea7a";
+}
+body {
+  background: #464f54;
+}
+.container-1 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.box-1 {
+  z-index: 1;
+  width: 876px;
+  height: 187px;
+  left: 324px;
+  top: 47px;
+
+  background: #181818;
+  box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+}
+.box-2 {
+  z-index: 1;
+
+  margin-bottom: -180px;
+  width: 812px;
+  height: 73px;
+  left: 388px;
+  top: 234px;
+
+  background: #fbc02d;
+  box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+}
+.box-3 {
+  width: 1060px;
+  height: 875px;
+  left: 70px;
+  top: 149px;
+  margin: 20px 70px 0px 0px;
+
+  background: #ffffff;
+}
+.input_title {
+  margin: 45px 759px 0px 68px;
+  width: 49px;
+  height: 18px;
+  left: 392px;
+  top: 92px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.19em;
+
+  color: #767676;
+}
+.box-1 input {
+  margin: 0px 463px 0px 68px;
+  width: 345px;
+  height: 64px;
+  left: 392px;
+  top: 110px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 64px;
+  background: #181818;
+  color: #fefefe;
+  border: 0;
+}
+.box-1 hr {
+  margin: 0px 0px 46px 70px;
+  width: 806px;
+  height: 3px;
+  left: 394px;
+  top: 185px;
+
+  background: rgba(255, 255, 255, 0.1);
+}
+.box-2 span {
+  opacity: 0.5;
+  font-size: 40px;
+  margin: 18px 12px 20px 12px;
+  display: inline-block;
+  color: white;
+}
+.box-2 span:hover {
+  opacity: 1;
+}
+.first_p {
+  margin: 260px 728px 18px 124px;
+  width: 208px;
+  height: 24px;
+  left: 194px;
+  top: 409px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+
+  color: #b4b4b4;
+}
+.heading {
+  margin: 0px 240px 0px 120px;
+  width: 696px;
+  height: 100px;
+  left: 194px;
+  top: 451px;
+
+  font-family: Futura PT, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 67px;
+  line-height: 100px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #2a2a2a;
+}
+em {
+  margin: 0px 384px 50px 124px;
+  width: 552px;
+  height: 34px;
+  left: 194px;
+  top: 551px;
+
+  font-family: Georgia;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 34px;
+  /* identical to box height */
+
+  color: #8f8f8f;
+}
+.first_paragraph {
+  margin: 50px 112px 30px 124px;
+  width: 824px;
+  height: 160px;
+  left: 194px;
+  top: 635px;
+
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 40px;
+  /* or 148% */
+
+  color: #000000;
+}
+.second_paragraph {
+  margin: 0px 112px 0px 124px;
+  width: 824px;
+  height: 120px;
+  left: 194px;
+  top: 825px;
+
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 40px;
+  /* or 148% */
+
+  color: #000000;
+}
+/* .hr {
+  margin: 0px 0px 0px 56px;
+
+  width: 2px;
+  height: 875px;
+  left: 136px;
+  top: 149px;
+
+  background: #e8eced;
+} */
+.table {
+  margin: -795px 0px 0px 66px;
+  height: 875px;
+  width: 2px;
+
+  background: #06eeee;
+}
